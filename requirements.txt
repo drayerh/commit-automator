@@ -1,0 +1,4 @@
+tzdata==2024.2
+gitpython==3.1.30
+faker==18.9.0
+pytz==2023.3
