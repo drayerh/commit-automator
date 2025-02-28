@@ -8,7 +8,8 @@ import pytz
 from git.exc import InvalidGitRepositoryError, NoSuchPathError
 
 # Configuration
-REPO_PATH = 'C:/Users/EMMANUEL/commit-automator'  # Local directory path
+#REPO_PATH = 'C:/Users/EMMANUEL/commit-automator'  # Local directory path when running from local machine
+REPO_PATH = 'https://www.pythonanywhere.com/user/drayerh/files/home/drayerh/commit-automator.py'  # Local directory path when running from PythonAnywhere
 GITHUB_URL = 'git@github.com/drayerh/commit-automator.git'  # Use SSH URL
 FILE_PATH = 'code_gen/code_{date}.py'
 COMMIT_TIMES = 3  # Commits per run
